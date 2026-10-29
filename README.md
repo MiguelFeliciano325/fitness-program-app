@@ -17,6 +17,8 @@
 
 ## 1. About Me (the User)
 
+*Who am I in the context of this problem? What roles am I playing (student, employee, parent, athlete, gamer…)?*
+
 I am a college student studying computer science while balancing school, part-time work, and personal commitments. I also play basketball and want to stay active, improve my strength, and feel more athletic.
 
 My weekly schedule makes consistency difficult. I have classes on Mondays and Wednesdays that can run from 8 a.m. to 7:40 p.m., basketball on Tuesdays and  Wednesdays, and work at Subway from Friday through Sunday, usually 7 a.m. to 3 p.m. By the time I finish school or work, I can feel tired and have trouble following through on exercise plans.
