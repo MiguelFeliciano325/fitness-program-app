@@ -17,8 +17,6 @@
 
 ## 1. About Me (the User)
 
-*Who am I in the context of this problem? What roles am I playing (student, employee, parent, athlete, gamer…)?*
-
 I am a college student studying computer science while balancing school, part-time work, and personal commitments. I also play basketball and want to stay active, improve my strength, and feel more athletic.
 
 My weekly schedule makes consistency difficult. I have classes on Mondays and Wednesdays that can run from 8 a.m. to 7:40 p.m., basketball on Tuesdays and  Wednesdays, and work at Subway from Friday through Sunday, usually 7 a.m. to 3 p.m. By the time I finish school or work, I can feel tired and have trouble following through on exercise plans.
@@ -28,17 +26,17 @@ I used to go to the gym consistently, but my routine fell apart after a trip to 
 **The last 3 times this happened:**
 *Real, recent moments. For each: when and where, what went wrong, what it cost, what you did.*
 
-1. 
-2. 
-3. 
+1. After a long school day: I get home tired, eat dinner around 8pm, Gym closes at either 11pm/10pm/7pm. Instead of getting ready and going, I rest instead and tell myself that I will just go tomorrow. This causes me to miss a workout even when I still have time to workout.
+2. When I plan to go to the gym with my brother: I stayed home telling my brother I am too tired and instead went on my phone, since it is easier to skip going to the gym and exercising. Having my brother go with me helps me make plans, but does not stop me canceling it.
+3. Skipping leg day: It ruins my streak and makes it difficult to maintain my routine, I use the missed session as a reason to take another day off, telling myself that it is supposed to be rest day today, which leads to missed workout routines and make it hard to stay consistent.
 
 **What it costs me:**
 *Be specific. How often, how much?*
 
-- ⏱️ Time:
-- 💸 Money:
-- 🔋 Energy:
-- 🙂 Joy:
+- ⏱️ Time: Workout time is lost when I procrastinate, creating a routine since it keeps on breaking
+- 💸 Money: Paying for gym access, I don't go consistently. $30/month
+- 🔋 Energy: I feel sluggish, less athletic, restarting feels harder
+- 🙂 Joy: The satisfaction of getting stronger, beating my PR's, seeing progress over time
 
 ---
 
@@ -46,14 +44,14 @@ I used to go to the gym consistently, but my routine fell apart after a trip to 
 
 **Gut check:**
 
-> I need **[X]** because **[Y]**.
+> I need **a way to follow through with my workout plans** because **I feel out of shape, heavier and procrastinate about working out**.
 
 **Five Whys:**
-1. Why?
-2. Why?
-3. Why?
-4. Why?
-5. Why?
+1. Why do I miss workouts? I often feel tired after school or work, or get distracted with my phone and end up not going
+2. Why does me being tired and ?
+3. Why is it easy to skip going to the gym?
+4. Why do I lose momentum after missing gym sessions?
+5. Why is maintaing a workout routine so difficult?
 
 **Problem statement:**
 
