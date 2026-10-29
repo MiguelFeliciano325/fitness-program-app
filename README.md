@@ -7,11 +7,11 @@
   Delete these instructions and the italic hints as you fill each section in.
 -->
 
-# [Product Name]
+# Fitness Progress App
 
 > One line: what this is and who it's for (hint: it's for you).
 
-**Author:** [Your name] · **Course:** CMP 464/343 Product 1 · **Last updated:** [date]
+**Author:** Miguel Feliciano · **Course:** CMP 464/343 Product 1 · **Last updated:** October 29,2026
 
 ---
 
@@ -19,7 +19,11 @@
 
 *Who am I in the context of this problem? What roles am I playing (student, employee, parent, athlete, gamer…)?*
 
-[Your answer]
+I am a college student studying computer science while balancing school, part-time work, and personal commitments. I also play basketball and want to stay active, improve my strength, and feel more athletic.
+
+My weekly schedule makes consistency difficult. I have classes on Mondays and Wednesdays that can run from 8 a.m. to 7:40 p.m., basketball on Tuesdays and  Wednesdays, and work at Subway from Friday through Sunday, usually 7 a.m. to 3 p.m. By the time I finish school or work, I can feel tired and have trouble following through on exercise plans.
+
+I used to go to the gym consistently, but my routine fell apart after a trip to the Philippines and changes to my gym schedule. I know how to work out, but I struggle to make it a consistent part of my current life.
 
 **The last 3 times this happened:**
 *Real, recent moments. For each: when and where, what went wrong, what it cost, what you did.*
