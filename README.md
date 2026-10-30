@@ -57,13 +57,13 @@ I used to go to the gym consistently, but my routine fell apart after a trip to 
 
 **Problem statement:**
 
-> **When** I finish a long day of school or work and have a limited time left to workout,
-> **I struggle to** follow through on my planned gym sessions or walks,
-> **which costs me** workout time, a workout routine, money spent on gym membership, feeling sluggish, satisfaction of getting stronger, and seeing progress over time.
-> **This happens because** I get tired, distracted, procrastinate, and difficulty of creating a healthy routine.
-> **Right now I** make workout plans, track my weight, personal goals **but** I do not follow through with my plans when I am tired or my schedule changes.
+> **When** I get home after a long day of school or work, especially after dinner around 8–8:30 PM or after a Subway shift around 3:30 PM,
+> **I struggle to** follow through on my planned gym sessions or walks. I intend to exercise 4–5 times per week, but I usually only complete 1–2 sessions.
+> **which costs me** opportunities to improve my strength, energy, and athletic ability, as well as the satisfaction of seeing my progress. I also spend about $30 per month on my gym membership but don't use it as consistently as I intend to.
+> **This happens because** I make exercise plans based on how motivated I think I'll feel instead of considering how busy or tired I might be. After a long day, resting or using my phone feels easier and more rewarding than exercising. When I miss a planned session, I tell myself I'll go the next day, but I sometimes keep postponing or get distracted and lose track of my routine.
+> **Right now I** I make workout plans, set personal goals, and sometimes plan sessions with my brother, **but** approaches don't always work because my brother may be busy, I may feel too tired or unmotivated, and I struggle to hold myself accountable when exercising on my own.
 
-**I'll know this is solved when:** I can consistently complete my chosen weekly workout plans for at least a month, even if school and work keeps me busy. I should also be able to see my completed tasks and progress over time
+**I'll know this is solved when:** I consistently complete at least 4 intentional exercise sessions per week for 4 consecutive weeks. If I miss a planned session, I can make it up later in the same week instead of giving up on the rest of the week. My goal is also to become more independent with exercising and follow through without depending on my brother's availability. Gym workouts, home workouts, intentional exercise walks, and each basketball session count as one session.
 
 
 ---
