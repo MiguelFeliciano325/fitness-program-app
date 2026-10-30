@@ -70,14 +70,15 @@ I used to go to the gym consistently, but my routine fell apart after a trip to 
 
 ## 3. Existing Solutions
 
-| What I use or tried | What it does well | Why it falls short *for me* |
-|Calorie tracking apps|Help me monitor what I eat and keep track of my daily calorie intake.|I often forget to log my food, and some useful features, like camera-based calorie tracking, require a subscription.|
-|Zombie running app |Makes running more entertaining by using an audio story where zombies chase me and give directions while I run. |I rarely went out in the morning to run, so I never really got to use it consistently. |
-|Leveling-up app |Lets me create tasks, complete them, and feel like I'm making progress toward personal goals. |I sometimes marked tasks as completed without actually doing them, so it became difficult to hold myself accountable. |
-|Notes app for weight tracking |Lets me record my weight and see changes over time. Seeing progress every week or two helped motivate me. |I sometimes forgot to update my notes consistently. |
-|Notes app for strength tracking |Lets me record my workout weights and repetitions so I can see when I'm getting stronger. |I sometimes forget to record my workouts, making it harder to keep track of my progress. |
-|Going to the gym with my older brother |Makes exercising easier because having someone with me helps me follow through. |It depends on his availability, and sometimes one of us is too busy or tired to go. |
-|Watching YouTube on the treadmill |Helps pass the time and makes longer treadmill walks feel less boring |It helps during the workout, but doesn't necessarily motivate me to get to the gym in the first place. |
+| What I use or tried                    | What it does well                                                                                               | Why it falls short for me                                                                                             |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Calorie tracking apps                  | Help me monitor what I eat and keep track of my daily calorie intake.                                           | I often forget to log my food, and some useful features, like camera-based calorie tracking, require a subscription.  |
+| Zombie running app                     | Makes running more entertaining by using an audio story where zombies chase me and give directions while I run. | I rarely went out in the morning to run, so I never really got to use it consistently.                                |
+| Leveling-up app                        | Lets me create tasks, complete them, and feel like I'm making progress toward personal goals.                   | I sometimes marked tasks as completed without actually doing them, so it became difficult to hold myself accountable. |
+| Notes app for weight tracking          | Lets me record my weight and see changes over time. Seeing progress every week or two helped motivate me.       | I sometimes forgot to update my notes consistently.                                                                   |
+| Notes app for strength tracking        | Lets me record my workout weights and repetitions so I can see when I'm getting stronger.                       | I sometimes forget to record my workouts, making it harder to keep track of my progress.                              |
+| Going to the gym with my older brother | Makes exercising easier because having someone with me helps me follow through.                                 | It depends on his availability, and sometimes one of us is too busy or tired to go.                                   |
+| Watching YouTube on the treadmill      | Helps pass the time and makes longer treadmill walks feel less boring.                                          | It helps during the workout, but doesn't necessarily motivate me to get to the gym in the first place.                |
 
 **The gap:** *In one sentence, what's still missing for me?*
 
