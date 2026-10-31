@@ -114,27 +114,40 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 ## 5. Tech Stack
 
 ### Front end
-- **Surface:** Web(Progressive Web App / PWA)
-- **Tools:** React, Vite, JavaScript, CSS, and Vite PWA plugin.
-- **Why:** I mainly experience this problem at home after school or work, and I want to be able to use the product on my iPhone. A PWA lets me add the website to my home screen and use it like an app without needing to build a separate native iPhone application.
+- **Surface:** web
+- **Tools:** Next.js, React, JavaScript, and CSS.
+- **Why:** Next.js and React make it easier to build interactive pages and reusable components. JavaScript keeps the project in one language, while CSS handles the layout and styling. A responsive design lets me log workouts from my phone or computer.
 
 ### Back end
 | Piece | Choice | Why |
 |---|---|---|
-| Server / API |Node.js + Express |Handles workout requests, processes information, and communicates with the database |
-| Data storage |Supabase |Stores workout sessions, exercises, sets, reps, and weights so i can access my progress later. |
+| Server / API |Next.js |Handles requests from the frontend, such as saving, editing, deleting, and retrieving workout sessions. It avoids needing a separate Express server. |
+| Data storage |Supabase (PostgreSQL) |Stores workout sessions, exercise details, and the user's weekly exercise goal in a structured database. |
 | Outside services (optional) | | |
-| Hosting / deploy |Vercel(frontend) + Render(Backend) |Hosts my PWA and backend online so i can access my workouts from my iphone |
+| Hosting / deploy |Vercel |Designed to host Next.js applications and makes deploying the app online straightforward. |
 
 ### Architecture sketch
 
-flowchart LR
-    U["Me (iPhone)"] --> FE["Front end: React + Vite PWA"]
-    FE --> API["Back end / API: Node.js + Express"]
-    API --> DB[("Data: Supabase PostgreSQL")]
-    FE -. "Hosted on" .-> HOST1["Vercel"]
-    API -. "Hosted on" .-> HOST2["Render"]
-```
+
+flowchart TD
+    U["You (User)"]
+    FE["Front End<br/>Next.js + React + JavaScript + CSS"]
+    API["Back End / API<br/>Next.js Route Handlers"]
+    DB[("Data Storage<br/>Supabase (PostgreSQL)")]
+
+    U -->|"1. Interact with the app"| FE
+    FE -->|"2. Send a request"| API
+    API -->|"3. Read or save data"| DB
+    DB -->|"4. Return the data"| API
+    API -->|"5. Send a response"| FE
+    FE -->|"6. Display the result"| U
+
+    V["Hosting: Vercel"]
+    V -.->|"Hosts the Next.js app"| FE
+    V -.->|"Runs the API"| API
+
+
+    
 
 ---
 
