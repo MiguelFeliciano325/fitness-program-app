@@ -114,7 +114,7 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 ## 5. Tech Stack
 
 ### Front end
-- **Surface:** web
+- **Surface:** Web
 - **Tools:** Next.js, React, JavaScript, and CSS.
 - **Why:** Next.js and React make it easier to build interactive pages and reusable components. JavaScript keeps the project in one language, while CSS handles the layout and styling. A responsive design lets me log workouts from my phone or computer.
 
@@ -129,22 +129,24 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 ### Architecture sketch
 
 
+```mermaid
 flowchart TD
     U["You (User)"]
-    FE["Front End<br/>Next.js + React + JavaScript + CSS"]
-    API["Back End / API<br/>Next.js Route Handlers"]
-    DB[("Data Storage<br/>Supabase (PostgreSQL)")]
-
-    U -->|"1. Interact with the app"| FE
-    FE -->|"2. Send a request"| API
-    API -->|"3. Read or save data"| DB
-    DB -->|"4. Return the data"| API
-    API -->|"5. Send a response"| FE
-    FE -->|"6. Display the result"| U
-
+    FE["Front End: Next.js, React, JavaScript, CSS"]
+    API["Back End / API: Next.js Route Handlers"]
+    DB[("Database: Supabase PostgreSQL")]
     V["Hosting: Vercel"]
-    V -.->|"Hosts the Next.js app"| FE
+
+    U -->|"1. Interact with app"| FE
+    FE -->|"2. Send request"| API
+    API -->|"3. Read or save data"| DB
+    DB -->|"4. Return data"| API
+    API -->|"5. Send response"| FE
+    FE -->|"6. Display result"| U
+
+    V -.->|"Hosts the application"| FE
     V -.->|"Runs the API"| API
+```
 
 
     
