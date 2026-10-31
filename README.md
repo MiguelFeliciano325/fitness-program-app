@@ -117,35 +117,33 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 ### Front end
 - **Surface:** Web
 - **Tools:** Next.js, React, JavaScript, and CSS.
-- **Why:** Next.js and React make it easier to build interactive pages and reusable components. JavaScript keeps the project in one language, while CSS handles the layout and styling. A responsive design lets me log workouts from my phone or computer.
+- **Why:** Next.js + React let me build a responsive, mobile-friendly app quickly, and JavaScript keeps the MVP in one language.
 
 ### Back end
 | Piece | Choice | Why |
 |---|---|---|
-| Server / API |Next.js |Handles requests from the frontend, such as saving, editing, deleting, and retrieving workout sessions. It avoids needing a separate Express server. |
-| Data storage |Supabase (PostgreSQL) |Stores workout sessions, exercise details, and the user's weekly exercise goal in a structured database. |
-| Outside services (optional) | | |
-| Hosting / deploy |Vercel |Designed to host Next.js applications and makes deploying the app online straightforward. |
+| Server / API | Next.js API routes | Keeps the app as a single project and handles workout logging and weekly goal updates without a separate backend service. |
+| Data storage | Supabase (PostgreSQL) | Gives me a simple, reliable relational database for workout sessions, exercise details, and weekly goal progress without managing servers. |
+| Hosting / deploy | Vercel | Built for Next.js and makes deployment straightforward for a small student project. |
 
 ### Architecture sketch
 
-
 ```mermaid
 flowchart TD
-    U["You (User)"]
-    FE["Front End: Next.js, React, JavaScript, CSS"]
+    U["User"]
+    FE["Front End: Next.js + React + CSS"]
     API["Back End / API: Next.js Route Handlers"]
     DB[("Database: Supabase PostgreSQL")]
     V["Hosting: Vercel"]
 
-    U -->|"1. Interact with app"| FE
+    U -->|"1. Use app on phone or laptop"| FE
     FE -->|"2. Send request"| API
-    API -->|"3. Read or save data"| DB
-    DB -->|"4. Return data"| API
+    API -->|"3. Read or save workout data"| DB
+    DB -->|"4. Return updated data"| API
     API -->|"5. Send response"| FE
-    FE -->|"6. Display result"| U
+    FE -->|"6. Show progress and next steps"| U
 
-    V -.->|"Hosts the application"| FE
+    V -.->|"Hosts the app"| FE
     V -.->|"Runs the API"| API
 ```
 
@@ -158,4 +156,4 @@ flowchart TD
 
 *What am I still unsure about? What do I need to figure out or test first?*
 
-- 
+-
