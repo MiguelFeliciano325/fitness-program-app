@@ -98,39 +98,42 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 | Tracking personal records                          | Gives me goals to beat my previous records and motivates me to keep improving.                                                                    | MVP           |
 
 **MVP (2–3 features):** *The skateboard: the smallest version I'd actually use.*
-- workout logging + personal records
-- tasks, challenges, xp, and levels
+- Workout logging (exercise name, sets, reps, and weight).
+- Weekly exercise goal and progress (goal of 4 sessions, such as 2/4 completed).
 
 **Later:**
-- photo verification, because workout and set logging shows i went to the gym, but verifies i went to the gym
+- Photo verification — provides proof that you completed an exercise session and helps with accountability.
+- XP and levels — makes exercising more fun and game-like.
+- Personal records — gives you goals to beat and helps motivate you to improve. 
 
 **Not doing:** *Things I'm deliberately leaving out.*
-- 
+-
 
 ---
 
 ## 5. Tech Stack
 
 ### Front end
-- **Surface:** [CLI / Web / Mobile / Cross-platform / Chat]
-- **Tools:** [e.g., Next.js, Python, Expo]
-- **Why:** *How does this fit where and when I have the problem?*
+- **Surface:** Web(Progressive Web App / PWA)
+- **Tools:** React, Vite, JavaScript, CSS, and Vite PWA plugin.
+- **Why:** I mainly experience this problem at home after school or work, and I want to be able to use the product on my iPhone. A PWA lets me add the website to my home screen and use it like an app without needing to build a separate native iPhone application.
 
 ### Back end
 | Piece | Choice | Why |
 |---|---|---|
-| Server / API | | |
-| Data storage | | |
+| Server / API |Node.js + Express |Handles workout requests, processes information, and communicates with the database |
+| Data storage |Supabase |Stores workout sessions, exercises, sets, reps, and weights so i can access my progress later. |
 | Outside services (optional) | | |
-| Hosting / deploy | | |
+| Hosting / deploy |Vercel(frontend) + Render(Backend) |Hosts my PWA and backend online so i can access my workouts from my iphone |
 
 ### Architecture sketch
 
-```mermaid
 flowchart LR
-  U["Me"] --> FE["Front end: ..."]
-  FE --> API["Back end / API: ..."]
-  API --> DB[("Data: ...")]
+    U["Me (iPhone)"] --> FE["Front end: React + Vite PWA"]
+    FE --> API["Back end / API: Node.js + Express"]
+    API --> DB[("Data: Supabase PostgreSQL")]
+    FE -. "Hosted on" .-> HOST1["Vercel"]
+    API -. "Hosted on" .-> HOST2["Render"]
 ```
 
 ---
