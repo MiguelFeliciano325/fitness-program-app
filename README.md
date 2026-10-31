@@ -95,7 +95,8 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 | Taking a picture of me in the gym or taking a walk | Gives me proof that I completed an exercise session and helps keep me accountable without depending on my brother.                                | Later         |
 | Workout and set logging                            | Helps me remember my reps, sets, and weights so I can see my progress and stay motivated.                                                         | MVP           |
 | Setting tasks, XP, levels, and challenges          | Helps me set weekly exercise goals, see completed and pending sessions, and know how many more sessions I need to reach my goal of four per week. | MVP           |
-| Tracking personal records                          | Gives me goals to beat my previous records and motivates me to keep improving.                                                                    | MVP           |
+| Setting XP, levels          | Helps make me see the progress with levels  | Later           |
+| Tracking personal records                          | Gives me goals to beat my previous records and motivates me to keep improving.                                                                    | Later           |
 
 **MVP (2–3 features):** *The skateboard: the smallest version I'd actually use.*
 - Workout logging (exercise name, sets, reps, and weight).
@@ -107,7 +108,7 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 - Personal records — gives you goals to beat and helps motivate you to improve. 
 
 **Not doing:** *Things I'm deliberately leaving out.*
--
+- calorie tracking
 
 ---
 
