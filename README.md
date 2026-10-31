@@ -11,7 +11,7 @@
 
 > One line: what this is and who it's for (hint: it's for you).
 
-**Author:** Miguel Feliciano · **Course:** CMP 464/343 Product 1 · **Last updated:** October 29,2026
+**Author:** Miguel Feliciano · **Course:** CMP 464/343 Product 1 · **Last updated:** October 30,2026
 
 ---
 
@@ -82,7 +82,7 @@ I used to go to the gym consistently, but my routine fell apart after a trip to 
 
 **The gap:** *In one sentence, what's still missing for me?*
 
-[Your answer]
+Most existing solutions help me track progress, make exercise entertaining, or provide motivation while working out. However, they don't fully address my biggest problem: consistently getting myself to exercise when I'm tired, busy, or alone. I also sometimes forget to record my progress, even though seeing improvements motivates me.
 
 ---
 
@@ -90,19 +90,19 @@ I used to go to the gym consistently, but my routine fell apart after a trip to 
 
 *Every feature should move me toward my "solved when" line.*
 
-| Feature (what it does) | Benefit (how my life gets better) | MVP or Later? |
-|---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+| Feature (what it does)                             | Benefit (how my life gets better)                                                                                                                 | MVP or Later? |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| Taking a picture of me in the gym or taking a walk | Gives me proof that I completed an exercise session and helps keep me accountable without depending on my brother.                                | Later         |
+| Workout and set logging                            | Helps me remember my reps, sets, and weights so I can see my progress and stay motivated.                                                         | MVP           |
+| Setting tasks, XP, levels, and challenges          | Helps me set weekly exercise goals, see completed and pending sessions, and know how many more sessions I need to reach my goal of four per week. | MVP           |
+| Tracking personal records                          | Gives me goals to beat my previous records and motivates me to keep improving.                                                                    | MVP           |
 
 **MVP (2–3 features):** *The skateboard: the smallest version I'd actually use.*
-- 
-- 
+- workout logging + personal records
+- tasks, challenges, xp, and levels
 
 **Later:**
-- 
+- photo verification, because workout and set logging shows i went to the gym, but verifies i went to the gym
 
 **Not doing:** *Things I'm deliberately leaving out.*
 - 
