@@ -116,11 +116,13 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 - **Why:** Next.js + React let me build a responsive, web app quickly, and JavaScript keeps the MVP in one language.
 
 ### Back end
+
+
 | Piece | Choice | Why |
 |---|---|---|
-| Server / API | Next.js API routes | Keeps the app as a single project and handles workout logging and weekly goal updates without a separate backend service. |
-| Data storage | Supabase (PostgreSQL) | Gives me a simple, reliable relational database for workout sessions, exercise details, and weekly goal progress without managing servers. |
-| Hosting / deploy | Vercel | Built for Next.js and makes deployment straightforward for a small student project. |
+| Data access / API | Supabase JavaScript Client | Allows my app to send and retrieve workout data directly from Supabase without building separate API routes. |
+| Data storage | Supabase (PostgreSQL) | Stores workout sessions, exercise details, and weekly progress without needing to manage my own database server. |
+| Hosting / deploy | Vercel | Works with Next.js and lets me deploy my web app so I can access it on my phone or computer. |
 
 ### Architecture sketch
 
