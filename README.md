@@ -9,15 +9,12 @@
 
 # Fitness Progress App
 
-> One line: what this is and who it's for (hint: it's for you).
 
 **Author:** Miguel Feliciano · **Course:** CMP 464/343 Product 1 · **Last updated:** November 2,2026
 
 ---
 
 ## 1. About Me (the User)
-
-*Who am I in the context of this problem? What roles am I playing (student, employee, parent, athlete, gamer…)?*
 
 I am a college student studying computer science while balancing school, part-time work, and personal commitments. I also play basketball and want to stay active, improve my strength, and feel more athletic.
 
@@ -88,7 +85,6 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 
 ## 4. Features & Benefits
 
-*Every feature should move me toward my "solved when" line.*
 
 | Feature (what it does)                             | Benefit (how my life gets better)                                                                                                                 | MVP or Later? |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
@@ -98,7 +94,7 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 | Setting XP, levels          | Helps make me see the progress with levels  | Later           |
 | Tracking personal records                          | Gives me goals to beat my previous records and motivates me to keep improving.                                                                    | Later           |
 
-**MVP (2–3 features):** *The skateboard: the smallest version I'd actually use.*
+**MVP (2–3 features):**
 - Workout logging (exercise name, sets, reps, and weight).
 - Weekly exercise goal and progress (goal of 4 sessions, such as 2/4 completed).
 
@@ -107,7 +103,7 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 - XP and levels — makes exercising more fun and game-like.
 - Personal records — gives you goals to beat and helps motivate you to improve. 
 
-**Not doing:** *Things I'm deliberately leaving out.*
+**Not doing:**
 - calorie tracking
 
 ---
@@ -155,6 +151,6 @@ flowchart TD
 
 ## 6. Open Questions
 
-*What am I still unsure about? What do I need to figure out or test first?*
+How do i launch in Vercel because it gave me error?
 
 -
