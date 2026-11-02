@@ -11,7 +11,7 @@
 
 > One line: what this is and who it's for (hint: it's for you).
 
-**Author:** Miguel Feliciano · **Course:** CMP 464/343 Product 1 · **Last updated:** October 30,2026
+**Author:** Miguel Feliciano · **Course:** CMP 464/343 Product 1 · **Last updated:** November 2,2026
 
 ---
 

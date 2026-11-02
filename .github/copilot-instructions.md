@@ -40,4 +40,4 @@
 ## Example of good fit
 - A new “weekly goal card” that shows completed sessions and remaining sessions is on-brand.
 - A generic “nutrition dashboard” would not match the specified MVP and would likely broaden scope unnecessarily.
-- A “make-up session” workflow is likely more valuable than adding gamified systems before the core logging flow works.
+- A “make-up session” workflow is likely more valuable than adding gamified systems before the core logging flow works
