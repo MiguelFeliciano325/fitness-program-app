@@ -2,20 +2,33 @@
 
 import { useState } from "react";
 
+import { supabase } from "../lib/supabase";
+
 export default function NewSession() {
   const [activityType, setActivityType] = useState("gym");
   const [sessionDate, setSessionDate] = useState(new Date().toLocaleDateString("en-CA"));
   const [isSubmitted, setIsSubmitted] = useState(false);
-  function handleSubmit(event) {
+
+
+  async function handleSubmit(event) {
   event.preventDefault();
-  const newSession = {
-  activity_type: activityType,
-  session_date: sessionDate
-};
-  console.log(newSession);
-  setIsSubmitted(true);
+
+  const { data: { user } } = await supabase.auth.getUser();
+
+  if (!user) {
+    alert("Please log in before saving a session.");
+    return;
   }
 
+  const newSession = {
+    activity_type: activityType,
+    session_date: sessionDate,
+    user_id: user.id
+  };
+
+  console.log(newSession);
+  setIsSubmitted(true);
+}
 
 
 
