@@ -26,8 +26,13 @@ export default function NewSession() {
     user_id: user.id
   };
 
-  console.log(newSession);
-  setIsSubmitted(true);
+  const { error } = await supabase.from("sessions").insert([newSession]);
+  if (error) {
+    alert("failed to save session: " + error.message);
+    setIsSubmitted(false);
+  } else {
+    setIsSubmitted(true);
+  }
 }
 
 
