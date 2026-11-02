@@ -94,7 +94,7 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | Taking a picture of me in the gym or taking a walk | Gives me proof that I completed an exercise session and helps keep me accountable without depending on my brother.                                | Later         |
 | Workout and set logging                            | Helps me remember my reps, sets, and weights so I can see my progress and stay motivated.                                                         | MVP           |
-| Setting tasks, XP, levels, and challenges          | Helps me set weekly exercise goals, see completed and pending sessions, and know how many more sessions I need to reach my goal of four per week. | MVP           |
+| Weekly exercise goal and progress (goal of 4 sessions, such as 2/4 completed).         | Helps me set weekly exercise goals, see completed and pending sessions, and know how many more sessions I need to reach my goal of four per week. | MVP           |
 | Setting XP, levels          | Helps make me see the progress with levels  | Later           |
 | Tracking personal records                          | Gives me goals to beat my previous records and motivates me to keep improving.                                                                    | Later           |
 
@@ -117,7 +117,7 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 ### Front end
 - **Surface:** Web
 - **Tools:** Next.js, React, JavaScript, and CSS.
-- **Why:** Next.js + React let me build a responsive, mobile-friendly app quickly, and JavaScript keeps the MVP in one language.
+- **Why:** Next.js + React let me build a responsive, web app quickly, and JavaScript keeps the MVP in one language.
 
 ### Back end
 | Piece | Choice | Why |
@@ -130,21 +130,22 @@ Most existing solutions help me track progress, make exercise entertaining, or p
 
 ```mermaid
 flowchart TD
-    U["User"]
-    FE["Front End: Next.js + React + CSS"]
-    API["Back End / API: Next.js Route Handlers"]
-    DB[("Database: Supabase PostgreSQL")]
-    V["Hosting: Vercel"]
+    U["User: Phone or Computer"]
+    FE["Frontend: Next.js + React + JavaScript"]
+    SC["Supabase JavaScript Client"]
+    AUTH["Supabase Authentication"]
+    DB[("Supabase PostgreSQL Database")]
+    V["Vercel Hosting"]
 
-    U -->|"1. Use app on phone or laptop"| FE
-    FE -->|"2. Send request"| API
-    API -->|"3. Read or save workout data"| DB
-    DB -->|"4. Return updated data"| API
-    API -->|"5. Send response"| FE
-    FE -->|"6. Show progress and next steps"| U
+    U -->|"1. Opens app and enters workout"| FE
+    FE -->|"2. Calls Supabase client"| SC
+    SC <-->|"3. Sign in and identify user"| AUTH
+    SC -->|"4. Send workout data"| DB
+    DB -->|"5. Return success or error"| SC
+    SC -->|"6. Update React state"| FE
+    FE -->|"7. Display confirmation"| U
 
-    V -.->|"Hosts the app"| FE
-    V -.->|"Runs the API"| API
+    V -.->|"Hosts Next.js app"| FE
 ```
 
 
