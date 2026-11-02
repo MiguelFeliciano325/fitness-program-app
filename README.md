@@ -151,6 +151,6 @@ flowchart TD
 
 ## 6. Open Questions
 
-*What am I still unsure about? What do I need to figure out or test first?*
+How do i launch in Vercel because it gave me error?
 
 -
