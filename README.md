@@ -169,4 +169,4 @@ The demo shows:
 
 The app currently supports basic workout session logging. Exercise and set logging and weekly progress tracking are still being developed.
 
-**Demo video:** [Watch my Fitness Progress App demo]https://youtu.be/0_qZQ9efPXs
+**Demo video:** https://youtu.be/0_qZQ9efPXs
