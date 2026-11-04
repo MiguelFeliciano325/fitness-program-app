@@ -10,7 +10,7 @@
 # Fitness Progress App
 
 
-**Author:** Miguel Feliciano · **Course:** CMP 464/343 Product 1 · **Last updated:** November 2,2026
+**Author:** Miguel Feliciano · **Course:** CMP 464/343 Product 1 · **Last updated:** November 4,2026
 
 ---
 
@@ -156,3 +156,17 @@ flowchart TD
 How do i launch in Vercel because it gave me error?
 
 -
+
+## 7. Demo
+
+This video demonstrates the working first version of my Fitness Progress App.
+
+The demo shows:
+- Opening the Fitness Progress App locally.
+- Selecting an exercise activity and date.
+- Submitting a workout session.
+- Verifying that the workout was saved in the Supabase database.
+
+The app currently supports basic workout session logging. Exercise and set logging and weekly progress tracking are still being developed.
+
+**Demo video:** [Watch my Fitness Progress App demo]https://youtu.be/0_qZQ9efPXs
